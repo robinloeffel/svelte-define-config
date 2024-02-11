@@ -1,0 +1,34 @@
+{
+	"name": "svelte-define-config",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "Provide a defineConfig function for Svelte. 👀",
+	"homepage": "https://github.com/robinloeffel/svelte-define-config",
+	"repository": "https://github.com/robinloeffel/svelte-define-config",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"license": "MIT",
+	"keywords": [
+		"svelte",
+		"define-config",
+		"config",
+		"typescript"
+	],
+	"files": [
+		"dist"
+	],
+	"devDependencies": {
+		"@sveltejs/kit": "^2.5.0",
+		"eslint": "^8.56.0",
+		"eslint-config-sweet": "^18.0.0",
+		"eslint-define-config": "^2.1.0",
+		"typescript": "^5.3.3"
+	},
+	"peerDependencies": {
+		"@sveltejs/kit": "^2"
+	},
+	"scripts": {
+		"build": "tsc",
+		"prepublish": "npm run build"
+	}
+}
